@@ -1,0 +1,184 @@
+{
+  "trainings": [
+    {
+      "id": 1,
+      "image": "assets/images/class1.jpg",
+      "title": "Yoga",
+      "trainer": "Cristine",
+      "price": "50€",
+      "imageDetails": "details/yoga.html",
+      "publishedDate": "11.07.2022",
+      "trainingDescription": "A personal trainer is an individual who has earned a certification that demonstrates they have achieved a level of competency for creating and delivering safe and effective exercise programs for apparently healthy individuals and groups.They motivate clients by collborating to set goals, providing meaningful feedback, and by being a reliable source accountability. Thank you",
+      "trainingTitle": "Hi, we are Atlas GYM",
+      "trainingImage": "assets/images/class1.jpg"
+    },
+    {
+      "id": 2,
+      "image": "assets/images/class2.jpg",
+      "title": "Aerobic",
+      "trainer": "Cathy",
+      "price": "60€",
+      "description": "Aerobic instructor. Upgrade your body at atlas gym!",
+      "imageDetails": "details/aerobic.html",
+      "publishedDate": "11.07.2022",
+      "trainingDescription": "A personal trainer is an individual who has earned a certification that demonstrates they have achieved a level of competency for creating and delivering safe and effective exercise programs for apparently healthy individuals and groups.They motivate clients by collborating to set goals, providing meaningful feedback, and by being a reliable source accountability. Thank you",
+      "trainingTitle": "Hi, we are Atlas GYM",
+      "trainingImage": "assets/images/class2.jpg"
+    },
+    {
+      "id": 3,
+      "image": "assets/images/class3.jpg",
+      "title": "Cardio",
+      "trainer": "Peter",
+      "price": "70€",
+      "imageDetails": "details/cardio.html",
+      "publishedDate": "11.07.2022",
+      "trainingDescription": "A personal trainer is an individual who has earned a certification that demonstrates they have achieved a level of competency for creating and delivering safe and effective exercise programs for apparently healthy individuals and groups.They motivate clients by collborating to set goals, providing meaningful feedback, and by being a reliable source accountability. Thank you",
+      "trainingTitle": "Hi, we are Atlas GYM",
+      "trainingImage": "assets/images/class3.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Milos",
+      "lastName": "Trajkovic",
+      "email": "milos@gmail.com",
+      "password": "12345",
+      "role": "admin",
+      "currentCreation": "2023-05-02T10:57:08.430Z"
+    },
+    {
+      "id": 2,
+      "firstName": "Pera",
+      "lastName": "Peric",
+      "email": "pera@gmail.com",
+      "password": "12345",
+      "role": "user",
+      "currentCreation": "2023-05-02T10:58:01.113Z"
+    }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "firstName": "Milos Trajkovic",
+      "training": "Cardio",
+      "email": "mtrajkovic060@gmail.com",
+      "phoneNumber": "0669329029",
+      "dateFrom": "02.07.1996",
+      "gymExpirience": "No"
+    },
+    {
+      "id": 2,
+      "fullName": "Peter Parker",
+      "trainingName": "Yoga",
+      "email": "peterparker@gmail.com",
+      "phoneNumber": "0658893665",
+      "birthday": "25.09.1990",
+      "gymExpirience": "Yes"
+    },
+    {
+      "id": 3,
+      "fullName": "Fran Wilson",
+      "trainingName": "Aerobic",
+      "email": "franwilson@gmail.com",
+      "phoneNumber": "066 93 29 029",
+      "birthday": "13.11.1992",
+      "gymExpirience": "No"
+    },
+    {
+      "id": 4,
+      "fullName": "Jack Connor",
+      "trainingName": "Cardio",
+      "email": "jackconnor@gmail.com",
+      "phoneNumber": "0669588745",
+      "birthday": "10.05.1987",
+      "gymExpirience": "No"
+    },
+    {
+      "id": 5,
+      "fullName": "Harry Callum",
+      "trainingName": "Aerobic",
+      "email": "franwilson@gmail.com",
+      "phoneNumber": "0606635201",
+      "birthday": "08.12.1978",
+      "gymExpirience": "Yes"
+    },
+    {
+      "fullName": "Milos Trajkovic",
+      "trainingName": "Aerobic",
+      "email": "mtrajkovic060@gmail.com",
+      "phoneNumber": "6666666558",
+      "birthday": "2022-12-07",
+      "gymExpirience": true,
+      "id": 6
+    },
+    {
+      "fullName": "Milos Trajkovic",
+      "trainingName": "Aerobic",
+      "email": "mtrajkovic@gmail.com",
+      "phoneNumber": "12412414",
+      "birthday": "2022-12-01",
+      "gymExpirience": true,
+      "id": 7
+    },
+    {
+      "fullName": "Milos Trajkovic",
+      "trainingName": "Yoga",
+      "email": "mtrajkovic060@gmail.com",
+      "phoneNumber": "5345",
+      "birthday": "2022-11-30",
+      "gymExpirience": false,
+      "id": 8
+    },
+    {
+      "fullName": "Milos Trajkovic",
+      "trainingName": "Yoga",
+      "email": "mtrajkovic060@gmail.com",
+      "phoneNumber": "123123",
+      "birthday": "2022-12-02",
+      "gymExpirience": true,
+      "id": 9
+    },
+    {
+      "fullName": "Milos Trajkovic",
+      "trainingName": "Yoga",
+      "email": "mtrajkovic060@gmail.com",
+      "phoneNumber": "123123123",
+      "birthday": "2022-12-13",
+      "gymExpirience": true,
+      "id": 10
+    },
+    {
+      "id": 11,
+      "fullName": "",
+      "trainingName": "",
+      "phoneNumber": 0,
+      "email": "",
+      "birthday": "",
+      "gymExpirience": null
+    }
+  ],
+  "links": [
+    {
+      "name": "Home",
+      "path": "Home",
+      "id": "1"
+    },
+    {
+      "name": "Candidates",
+      "path": "reservations/table",
+      "id": "2"
+    },
+    {
+      "name": "Login",
+      "path": "index.html",
+      "id": "3"
+    },
+    {
+      "name": "Logout",
+      "path": "login.html",
+      "id": "4"
+    }
+  ]
+}

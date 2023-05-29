@@ -1,0 +1,13 @@
+<div class="wrapper">
+  <div class="main-content">
+    <img [src]="training.image" />
+    <div class="container">
+      <button [routerLink]="['/trainings', training.id]">{{ training.title }}</button><br />
+      <p>Start date: {{ training.publishedDate }} </p>
+
+      <span>Price: {{ training.price }} </span>
+      <br />
+      <p class="description">{{ training.trainingDescription | descriptionLimit }}</p>
+    </div>
+  </div>
+</div>

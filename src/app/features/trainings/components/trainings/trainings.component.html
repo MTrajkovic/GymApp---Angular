@@ -1,0 +1,6 @@
+<app-search></app-search>
+<div class="order">
+  <app-central-part *ngFor="let training of trainings" [training]="training"></app-central-part>
+  <div *ngIf="trainingsCounter === 0">
+  </div>
+</div>

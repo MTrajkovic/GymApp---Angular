@@ -1,6 +1,12 @@
-# GymAppAngular
+# GymApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.10.
+
+## Start app
+
+Use command 'npm run start-app' in terminal to start application,
+Use command 'npm run start-database' in terminal to start up json database
+Use command 'start-all' in terminal to start whole application
 
 ## Development server
 

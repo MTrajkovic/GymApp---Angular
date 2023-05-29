@@ -1,0 +1,28 @@
+<div class="wrapper-overview" *ngIf="training; else elseBlock">
+  <div class="main-content">
+    <h1>{{ training?.title }}</h1>
+    <img [src]="training?.trainingImage" [alt]="training?.name" />
+  </div>
+
+  <div class="container">
+    <br />
+    <p>
+      {{ training?.trainingTitle }}
+    </p>
+
+    <p>
+      {{ training?.trainingDescription }}
+    </p>
+    <p>
+      Trainer name: {{ training.trainer }}
+    </p>
+    <p>
+      Start at: {{ training.publishedDate }}
+    </p>
+    <p>
+      Price: {{ training.price }}
+    </p>
+    <button [routerLink]="['']" class="buttonCloseOver">Close</button>
+  </div>
+</div>
+<ng-template #elseBlock></ng-template>

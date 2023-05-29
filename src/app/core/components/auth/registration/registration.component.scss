@@ -1,0 +1,67 @@
+@import "../../../../../styles/variables";
+
+.content {
+  top: 10%;
+  position: relative;
+  display: flex;
+
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+
+  input {
+    width: 100%;
+    height: 25px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 2px;
+  }
+
+  .invalid {
+    border: 4px solid red;
+  }
+
+  h1 {
+    text-align: left;
+    font-size: 60px;
+    color: #ffffff;
+  }
+
+  button {
+    width: 100%;
+    height: 25px;
+    background-color: #ffffff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+
+    &:hover {
+      background-color: #ffffff;
+      color: $blue-color;
+      cursor: pointer;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      background-color: #ffffff;
+      color: $blue-color;
+    }
+  }
+
+  .log-in-class {
+    background-color: transparent;
+    color: #ffffff;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+
+  p {
+    color: #ffffff;
+  }
+}
