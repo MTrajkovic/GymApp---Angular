@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./not-found.component.scss'],
 })
 export class NotFoundComponent {
-  @Input() text: string = '404 Error Page Not Found';
+  @Input() text: string = '404 Page Not Found';
 }

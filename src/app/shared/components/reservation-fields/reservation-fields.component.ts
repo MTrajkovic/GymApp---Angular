@@ -12,6 +12,15 @@ import { AuthorizationService } from '../../services/authorization.service';
   styleUrls: ['./reservation-fields.component.scss'],
 })
 export class TableOfReservationsComponent implements OnInit, OnDestroy {
+
+  dataSource!: Candidates[];
+
+  trainings?: Training[];
+
+  isAdmin: boolean = false;
+
+  private subscription$: Subject<void> = new Subject<void>();
+
   displayedColumns: string[] = [
     'id',
     'firstName',
@@ -21,14 +30,6 @@ export class TableOfReservationsComponent implements OnInit, OnDestroy {
     'dateTo',
     'delete',
   ];
-
-  dataSource!: Candidates[];
-
-  trainings?: Training[];
-
-  isAdmin: boolean = false;
-
-  private subscription$: Subject<void> = new Subject<void>();
 
   constructor(
     private reservationService: ReservationService,

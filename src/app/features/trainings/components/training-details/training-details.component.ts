@@ -20,7 +20,9 @@ export class TrainingDetails implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.trainingId = Number(this.activeRoute.snapshot.paramMap.get('trainingId'));
+    this.trainingId = Number(
+      this.activeRoute.snapshot.paramMap.get('trainingId')
+    );
     this.getOneTraining(this.trainingId);
   }
 
